@@ -1,0 +1,8 @@
+Demonstração
+
+Vídeo demonstrando:
+
+• Estrutura do Active Directory
+• OUs e usuários
+• Estação cliente ingressada no domínio
+• Autenticação utilizando usuário do domínio
