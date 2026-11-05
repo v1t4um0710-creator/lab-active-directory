@@ -1,0 +1,38 @@
+**Desafios e Soluções Encontradas**
+
+**Desafios Enfrentados**
+
+• Dificuldade inicial na configuração da virtualização necessária para execução das máquinas virtuais.
+• Esquecimento da senha da conta administrativa do domínio durante o desenvolvimento do laboratório.
+• Problemas de comunicação entre o servidor e a estação cliente devido à configuração incorreta da rede virtual no VirtualBox.
+• Cliente Windows recebendo endereço IP APIPA (169.254.x.x), impedindo a comunicação com o servidor.
+• Falhas na resolução de nomes do domínio por configuração incorreta de DNS.
+• Dificuldades durante o ingresso da estação Windows 11 no domínio Active Directory.
+• Problemas de autenticação causados pela utilização de credenciais incorretas e identificação equivocada do usuário de domínio.
+
+**Soluções Aplicadas**
+
+• Habilitação da virtualização na BIOS para permitir a execução adequada do ambiente virtualizado.
+• Recuperação do acesso administrativo e documentação das credenciais utilizadas no laboratório.
+• Reconfiguração da rede das máquinas virtuais para utilização de uma rede interna comum.
+• Configuração manual dos endereços IP e DNS para garantir comunicação entre servidor e cliente.
+• Validação da resolução DNS utilizando comandos como:
+<prompt de comando>
+nslookup victorlab.local
+• Validação da conectividade utilizando:
+<prompt de comando>
+ping, ip config
+• Correção das credenciais utilizadas no processo de ingresso ao domínio.
+• Ingresso bem-sucedido da estação Windows 11 no domínio victorlab.local.
+• Autenticação realizada com sucesso utilizando usuário criado no Active Directory.
+
+**Resultados Obtidos**
+
+✅ Implantação de domínio Active Directory funcional.
+✅ Configuração de DNS integrado ao Active Directory.
+✅ Criação e gerenciamento de usuários e grupos.
+✅ Estruturação de Unidades Organizacionais (OUs).
+✅ Ingresso de estação Windows 11 ao domínio.
+✅ Autenticação centralizada utilizando credenciais do Active Directory.
+✅ Desenvolvimento de habilidades práticas em troubleshooting de redes, DNS, autenticação e infraestrutura Microsoft.
+

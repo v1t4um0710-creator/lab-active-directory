@@ -1,0 +1,8 @@
+Versão 2.0
+
+Funcionalidades adicionadas
+
+• Integração de estação Windows 11 ao domínio
+• Resolução DNS via Active Directory
+• Autenticação centralizada utilizando usuário do domínio
+• Comunicação cliente-servidor em ambiente virtualizado
